@@ -7,7 +7,7 @@ The goal of this project is to implement a data warehousing solution using Snowf
 
 i. Valid Snowflake Account
 
-ii. Snowsql configured and ready to use with required connections
+ii. Snowsql installed,configured and ready to use with the required connections.
 
 iii. On-Prem Oracle db (configured as an ODBC connection in IICS) with HR schema objects. The objects with data can be created from #2 mentioned below, if not available already.
 
