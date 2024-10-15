@@ -28,7 +28,7 @@ https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%2
 
 3.  ETL/ELT Data Flows using Snowflake Tasks or Snow PIPEs.
 
-i. Source (CSV Files) to EDW_STG (Snowflake) : The code repo can be found here to Create the STAGE(s) and FILE FORMATS then run the PUT command to load these CSV files into the STAGE(s).
+i. Source (CSV Files) to EDW_STG (Snowflake) : The code repo can be found here to Create the STAGE(s) and FILE FORMATS then run the PUT command from SnowSQL command line utility to load these CSV files into the respective STAGE(s).
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/0.%20Snowflake%20Data%20Loading%20PREP%20Scripts%20ALL.sql
 
