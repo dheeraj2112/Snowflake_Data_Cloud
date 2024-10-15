@@ -124,7 +124,7 @@ dheeraj2112#COMPUTE_WH@EDW.EDW>COPY INTO STG_ORDER
 1 Row(s) produced. Time Elapsed: 27.083s
 dheeraj2112#COMPUTE_WH@EDW.EDW>
 
---Load AGAIN (without TRUNCATE ON TARGET TABLE ) and it will not re-process the file again.
+--Load AGAIN (without TRUNCATE ON TARGET TABLE or FORCE=TRUE in COPY Options) and it will not re-process the file again.
 
 dheeraj2112#COMPUTE_WH@EDW.EDW>COPY INTO STG_ORDER
                                    FROM
