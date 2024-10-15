@@ -28,7 +28,7 @@ https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%2
 
 3.  ETL/ELT Data Flows using Snowflake Tasks or Snow PIPEs.
 
-i. Source (CSV Files) to EDW_STG (Snowflake) : The code repo can be found here to Create the STAGE(s) and FILE FORMATS then run the PUT command from SnowSQL command line utility to load these CSV files into the respective STAGE(s).
+**i.** Source (CSV Files) to EDW_STG (Snowflake) : The code repo can be found here to Create the STAGE(s) and FILE FORMATS then run the PUT command from SnowSQL command line utility to load these CSV files into the respective STAGE(s).
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/0.%20Snowflake%20Data%20Loading%20PREP%20Scripts%20ALL.sql
 
@@ -43,25 +43,25 @@ The REFRESH functionality in the Snowpipe is explicitly to load existing or scan
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/1.1%20Snowflake%20SRC%20to%20EDW_STG%20Pipelines%20using%20Snowflake%20Pipe.sql
 
-ii. EDW_STG (Snowflake) to EDW(Snowflake) : Using SCD Type-2 (Using MERGE SQL statements), the code repo can be found here.
+**ii.** EDW_STG (Snowflake) to EDW(Snowflake) : Using SCD Type-2 (Using MERGE SQL statements), the code repo can be found here.
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/2.%20Snowflake%20EDW_STG%20to%20EDW%20Pipelines%20using%20Snowflake%20Tasks.sql
 
-iii. Orchestration and scheduling : Using Snowflake Tasks as per needed schedule.
+**iii.** Orchestration and scheduling : Using Snowflake Tasks as per needed schedule.
    
-5.  Load Validations
+4.  Load Validations
 
 The code repo can be found here to validate the SRC to EDW_STG tables load as well as EDW_STG to EDW tables load.
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/3.%20EDW_STG%20and%20EDW%20Pipelines%20Load%20Validations.sql
    
-7.  Analysis and Reporting (ETL Code)
+5.  Analysis and Reporting (ETL Code)
 
 Views or Dynamic tables can be leveraged accordingly for the analytics and reporting or visualization needs. This can be done from Snowflake specific features as per need.
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/4.%20EDW_EXTR%20Views%20and%20Dynamic%20Tables%20for%20Reporting.sql
    
-9.  Next Steps **-->**
+6.  Next Steps **-->**
     
 i. Incremental/CDC logic handling within Snowflake Data Cloud by leveraging the Streams coupled with TASKs to process them as needed.
 
