@@ -9,7 +9,7 @@ i. Valid Snowflake Account
 
 ii. Snowsql installed,configured and ready to use with the required connections.
 
-iii. On-Prem Oracle db (configured as an ODBC connection in IICS) with HR schema objects. The objects with data can be created from #2 mentioned below, if not available already.
+iii. On-Prem Oracle db HR schema objects exported in CSV format which are the source files for this project. The objects export can obtained from step #2 mentioned below, if not available already.
 
 1.2) Reference Architecture Diagram
 
