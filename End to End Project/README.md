@@ -57,7 +57,7 @@ https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%2
    
 7.  Analysis and Reporting (ETL Code)
 
-Views or Dynamic tables can be leveraged accordingly for the analytics and reporting or visualization needs. This can be done from IICS ETL job or Snowflake specific features as per need.
+Views or Dynamic tables can be leveraged accordingly for the analytics and reporting or visualization needs. This can be done from Snowflake specific features as per need.
 
 https://github.com/dheeraj2112/Snowflake_Data_Cloud/blob/master/End%20to%20End%20Project/4.Snowflake%20Scripts/4.%20EDW_EXTR%20Views%20and%20Dynamic%20Tables%20for%20Reporting.sql
    
