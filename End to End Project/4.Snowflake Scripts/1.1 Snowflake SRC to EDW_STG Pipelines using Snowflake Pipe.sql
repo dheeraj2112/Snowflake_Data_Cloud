@@ -98,8 +98,8 @@ COPY INTO EDW.EDW_STG.JOB_HISTORY
 
 
 		 
---TASKS LOAD VALIDATIONS for STG TABLE(s) LOAD (only after all the children as well as parent tasks are resumed mentioned in step #1).
-
+--TASKS LOAD VALIDATIONS for STG TABLE(s) LOAD (only after all the children as well as parent tasks are REFRESHED mentioned in step #0).
+-- Wait for a few mins in order to see the data in the STG tables once all of the PIPEs are REFRESHED.
 USE EDW.EDW_STG;
 
 SELECT 'REGIONS' AS Table_Name, COUNT(1) TABLE_COUNTS FROM EDW.EDW_STG.REGIONS
