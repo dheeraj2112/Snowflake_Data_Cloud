@@ -1,3 +1,7 @@
+--Medium Story Link
+
+https://medium.com/@dheeraj2112/snowflake-external-access-integration-to-get-data-from-api-endpoints-b880b2320dde
+
 --Use database and schema
 
 USE EDW.EDW;
